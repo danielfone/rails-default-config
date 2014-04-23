@@ -1,4 +1,4 @@
-require 'rails_default_config/railtie' if defined?(Rails)
+require "rails_default_config/engine" if defined?(Rails)
 
 module RailsDefaultConfig
 end
