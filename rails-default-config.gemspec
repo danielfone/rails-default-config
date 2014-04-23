@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails/default/config/version'
+require 'rails-default-config/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rails-default-config"
-  spec.version       = Rails::Default::Config::VERSION
+  spec.version       = RailsDefaultConfig::VERSION
   spec.authors       = ["Daniel Fone"]
   spec.email         = ["daniel@fone.net.nz"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
